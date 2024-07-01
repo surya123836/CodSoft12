@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&family=Playwrite+NZ:wght@100..400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    
+    margin:0px;
+}
+
+nav{
+    
+    color: transparent;
+    padding-left: 200px;
+    font-size: 100px;
+   
+    
+   font-family: "Playwrite NZ", cursive;
+   
+}
+article li{
+
+    display:inline;
+
+}
+li{
+    color:rgb(20, 60, 136);
+    cursor: pointer;
+}
+li:hover{
+    color: red;
+}
+ul{
+    margin-left:700px;
+    padding-left: 200px;
+    
+}
+.header{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    
+    
+}
+input{
+    margin-left:30%;
+   text-align: center;
+    width: 40%;
+    padding: 10px;
+    margin-top: 10px;
+    text-size-adjust: 20px;
+    
+}
+.right{
+    margin-left: 88%;
+    margin-top: 10px;
+    padding-right: 5px;
+    background-color: green;
+    background: linear-gradient(rgb(242, 78, 168), rgb(130, 180, 245) );
+   
+    font-family: "Dancing Script", cursive;
+    
+}
+.mail,.phone{
+    display: inline-flex;
+    
+}
+.fr{
+    display: flex;
+    flex-direction: row;
+    
+    margin: 5px;
+
+}
+.yt{
+    padding:5px;
+    border-right: solid;
+    cursor: pointer;
+}
+.fb {
+    padding:5px;
+    border-right: solid;
+    cursor: pointer;
+}
+.twitter{
+    padding:5px;
+    border-right:solid;
+    cursor: pointer;
+}
+.in{
+    padding:5px;
+    border-right:solid;
+    cursor: pointer;
+}
+.yt span:hover{
+    color: white;
+}
+.fb i:hover{
+    color: white;
+}
+.twitter i:hover{
+    color: white;
+}
+.in i:hover{
+    color: white;
+}
+.backg{
+    width: 200px;
+    height:200px;
+    background-image:url('back.jpg'),linear-gradient(blue,grey);
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-size: 20px;
+    text-align:center;
+    font-family: impact;
+    background-blend-mode: screen;
+    padding-top:30px;
+    font-family: "PT Serif", serif;
+    
+    
+}
+.backg p{
+    text-align: center;
+}
+.back2{
+    width:200px;
+    height:200px;
+    background-image: url('text3.webp'),linear-gradient(rgb(33, 201, 184),rgb(245, 79, 79));
+    font-size: 20px;
+    background-size:cover;
+    background-blend-mode:lighten;
+    padding-top: 50px;
+    display:flex;
+    margin-left: 50px;
+    font-family: impact;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+   
+}
+
+
+.back3{
+    width:200px;
+    height:200px;
+    background-image: url('CS.jpeg'),linear-gradient(rgb(33, 201, 184),rgb(245, 79, 79));
+    background-size: cover;
+    padding-top: 25px;
+    margin-left: 50px;
+    background-blend-mode:lighten;
+    
+
+}
+.back3 p{
+    text-align: center;
+    font-size:30px;
+
+}
+.our{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: "Oswald", sans-serif;
+}
+.center,.our{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size:50px;
+}
+.bottom {
+    margin-top: 0px;
+    width: 1510px;
+    height: 1011px;
+    background-image: url('world2.webp'),linear-gradient(rgb(33, 201, 184),rgb(245, 79, 79));
+    background-size:cover;
+    background-blend-mode:lighten;
+    opacity: 10;
+    
+
+
+}
+
+
+
