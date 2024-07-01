@@ -24,11 +24,11 @@ article li{
 
 }
 li{
-    color:rgb(20, 60, 136);
+    color:rgb(87, 124, 234);
     cursor: pointer;
 }
 li:hover{
-    color: red;
+    color: rgb(40, 77, 14);
 }
 ul{
     margin-left:700px;
@@ -50,20 +50,6 @@ input{
     padding: 10px;
     margin-top: 10px;
     text-size-adjust: 20px;
-    
-}
-.right{
-    margin-left: 88%;
-    margin-top: 10px;
-    padding-right: 5px;
-    background-color: green;
-    background: linear-gradient(rgb(242, 78, 168), rgb(130, 180, 245) );
-   
-    font-family: "Dancing Script", cursive;
-    
-}
-.mail,.phone{
-    display: inline-flex;
     
 }
 .fr{
@@ -94,16 +80,16 @@ input{
     cursor: pointer;
 }
 .yt span:hover{
-    color: white;
+    color: rgb(25, 111, 24);
 }
 .fb i:hover{
-    color: white;
+    color: rgb(25, 111, 24);
 }
 .twitter i:hover{
-    color: white;
+    color:  rgb(25, 111, 24);
 }
 .in i:hover{
-    color: white;
+    color: rgb(25, 111, 24);
 }
 .backg{
     width: 200px;
@@ -116,9 +102,7 @@ input{
     font-family: impact;
     background-blend-mode: screen;
     padding-top:30px;
-    font-family: "PT Serif", serif;
-    
-    
+    font-family: "PT Serif", serif; 
 }
 .backg p{
     text-align: center;
@@ -138,13 +122,8 @@ input{
 .center{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    
-    
-   
+    justify-content: center;  
 }
-
-
 .back3{
     width:200px;
     height:200px;
@@ -153,8 +132,6 @@ input{
     padding-top: 25px;
     margin-left: 50px;
     background-blend-mode:lighten;
-    
-
 }
 .back3 p{
     text-align: center;
@@ -175,7 +152,7 @@ input{
 .bottom {
     margin-top: 0px;
     width: 1510px;
-    height: 1011px;
+    height: 1000px;
     background-image: url('world2.webp'),linear-gradient(rgb(33, 201, 184),rgb(245, 79, 79));
     background-size:cover;
     background-blend-mode:lighten;
@@ -189,6 +166,20 @@ input{
 .bottom h2{
     text-align: center;
 }
+.mail,.phone{
+    display: flex;
+     font-family: "Dancing Script", cursive;
+     justify-content: center;
+}
+.down{
+    display: flex;
+    justify-content: center;
+
+}
+hr{
+    border-top: 5px dashed rgb(120, 118, 239);
+}
+
 
 
 
