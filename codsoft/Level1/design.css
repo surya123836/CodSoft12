@@ -180,9 +180,14 @@ input{
     background-size:cover;
     background-blend-mode:lighten;
     opacity: 10;
-    
-
-
+}
+.bottom a{
+    font-size:50px;
+    display: flex;
+    justify-content: center;
+}
+.bottom h2{
+    text-align: center;
 }
 
 
